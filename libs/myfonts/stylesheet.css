@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('myfon2t-webfont.woff2') format('woff2'),
+         url('myfon2t-webfont.woff') format('woff'),
+         url('myfon2t-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+i{font-style:normal;}
+.my {
+	font-family: 'MyFont';
+	font-size: 16px;
+	display: inline-block;
+}
+.my.my_a::before {
+	content: 'a';
+}
+.my.my_b::before {
+	content: 'b';
+}
+.my.my_d::before {
+	content: 'd';
+}
+.my.my_c::before {
+	content: 'c';
+}
+.my.my_e::before {
+	content: 'f';
+}
+.my.my_f::before {
+	content: 'f';
+}
+.my.my_g::before {
+	content: 'g';
+}
+.my.my_h::before {
+	content: 'h';
+}
+.my.my_i::before {
+	content: 'i';
+}
+.my.my_j::before {
+	content: 'j';
+}
