@@ -26,29 +26,4 @@ section {
 
 header {
   min-height: 640px;
-  background: url(../img/head_bg.png) no-repeat top center;
-  background-size: cover;
-  color: #fff;
-  padding-top: 32px; }
-  header .logo {
-    font-size: 40px;
-    font-family: "RobotoBold", sans-serif;
-    font-weight: normal; }
-
-.top_phone {
-  text-align: right; }
-
-.top_phone .wrapper {
-  text-transform: uppercase;
-  cursor: pointer;
-  font-family: "RobotoBold"; }
-
-.top_phone .wrapper .active {
-  text-decoration: underline; }
-
-h1 {
-  margin-top: 70px; }
-
-h2 {
-  margin-top: 0;
-  padding: 0; }
+  background-image: url(../../img/head_bg.png) no-repeat 0 0; }

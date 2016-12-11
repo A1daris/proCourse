@@ -13,8 +13,8 @@
 	src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix")format("embedded-opentype"),
 	url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype"),
 	url("../fonts/RobotoBold/RobotoBold.woff") format("woff");
-	font-style: bold;
-	font-weight: bold;
+	font-style: normal;
+	font-weight: normal;
 }
 @font-face {
 	font-family:"CleanLight";
