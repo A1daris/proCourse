@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	function wResize() {
-		$("header").css("height", $(window).height());
+		$("header").css("min-height", $(window).height());
 	};
 	wResize();
 	$(window).resize(function() {
@@ -11,9 +11,9 @@ $(document).ready(function() {
 
 	//tabs phone
 	$(".top_phone .tab_item").not(":first").hide();
-	$(".wrapper .tab").click(function() {
-		$(".wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
-		$(".tab_item").hide().eq($(this).index()).fadeIn()
+	$(".top_phone .wrapper .tab").click(function() {
+		$(".top_phone .wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
+		$(".top_phone .tab_item").hide().eq($(this).index()).fadeIn()
 	}).eq(0).addClass("active");
 
 	//tabs

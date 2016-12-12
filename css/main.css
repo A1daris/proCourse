@@ -34,8 +34,7 @@ header {
   background: url(../img/head_bg.png) no-repeat top center;
   background-size: cover;
   color: #fff;
-  padding-top: 32px;
-  padding-bottom: 40px; }
+  padding-top: 32px; }
   header .logo {
     font-size: 40px;
     font-family: "RobotoBold", sans-serif;
@@ -101,7 +100,8 @@ h2 {
 
 .tabs_wrap .tab_content {
   color: #000;
-  background-color: rgba(255, 255, 255, 0.65); }
+  background-color: rgba(255, 255, 255, 0.65);
+  margin-bottom: 35px; }
 
 .button {
   cursor: pointer;
@@ -135,3 +135,66 @@ h2 {
   font-size: 18px;
   text-transform: uppercase;
   padding: 15px; }
+
+.tizers {
+  color: #003469;
+  padding-top: 35px;
+  padding-bottom: 0;
+  background-color: #c6d8ee;
+  background-image: linear-gradient(#c6d8ee, #ddd); }
+  .tizers span {
+    display: block; }
+  .tizers .my {
+    font-size: 50px;
+    line-height: 48px; }
+  .tizers .image_wrap {
+    margin-right: 10px;
+    vertical-align: bottom;
+    display: inline-block; }
+  .tizers .tizers_item {
+    text-transform: uppercase;
+    vertical-align: bottom;
+    display: inline-block; }
+  .tizers .row {
+    font-family: "CleanLight"; }
+    .tizers .row > div {
+      margin-bottom: 35px; }
+    .tizers .row div:nth-child(1) .ten {
+      font-family: "RobotoRegular", sans-serif;
+      font-size: 55px;
+      letter-spacing: -12px;
+      margin-right: 8px;
+      line-height: 52px; }
+    .tizers .row div:nth-child(1) .tizers_item span {
+      font-size: 14px;
+      line-height: 24px; }
+    .tizers .row div:nth-child(1) .tizers_item strong {
+      font-size: 25px;
+      line-height: 28px;
+      font-weight: normal; }
+    .tizers .row div:nth-child(2) span {
+      font-size: 14px;
+      line-height: 24px; }
+    .tizers .row div:nth-child(2) strong {
+      font-size: 25px;
+      line-height: 28px;
+      font-weight: normal; }
+    .tizers .row div:nth-child(3) .tizers_item span {
+      font-size: 14px;
+      line-height: 24px; }
+    .tizers .row div:nth-child(3) .tizers_item strong {
+      font-size: 23px;
+      line-height: 24px;
+      font-weight: normal; }
+    .tizers .row div:nth-child(3) i {
+      position: relative;
+      top: 3px; }
+    .tizers .row div:nth-child(4) .tizers_item span {
+      font-size: 14px;
+      line-height: 24px; }
+    .tizers .row div:nth-child(4) .tizers_item strong {
+      font-size: 23px;
+      line-height: 24px; }
+    .tizers .row div:nth-child(4) i {
+      position: relative;
+      top: 3px; }
