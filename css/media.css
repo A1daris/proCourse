@@ -2,6 +2,13 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+ .tizers > div {
+ 	text-align: center;
+ }
+ .tizers > div  .image_wrap {
+ 	display: block;
+ 	margin-bottom: 5px;
+ }
 
 }
 
@@ -17,7 +24,13 @@
 .top_phone, .logo, .top_header h1, .top_header h2 {
 		text-align: center;
 	}
-
+ .tizers > div  .image_wrap {
+ 	display: inline-block;
+ 	margin-bottom: 0;
+ }
+  .tizers > div {
+ 	text-align: left;
+ }
 }
 
 /* Extra Small Devices, Phones */

@@ -179,6 +179,9 @@ h2 {
       font-size: 25px;
       line-height: 28px;
       font-weight: normal; }
+    .tizers .row div:nth-child(2) i {
+      position: relative;
+      top: 3px; }
     .tizers .row div:nth-child(3) .tizers_item span {
       font-size: 14px;
       line-height: 24px; }
