@@ -1,5 +1,18 @@
 $(document).ready(function() {
 
+	$.stellar({
+		responsive: true,
+	});
+
+	$(".carousel").owlCarousel({
+			loop : true,		
+			navigation : true, // Show next and prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem : true,
+      navigationText: ""
+	});
+
 	function wResize() {
 		$("header").css("min-height", $(window).height());
 	};
