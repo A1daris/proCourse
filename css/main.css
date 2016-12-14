@@ -123,11 +123,18 @@ h2 {
   font-size: 16px;
   font-family: "RobotoBold", sans-serif; }
 
+button .button {
+  border: 0; }
+
 .btn_red {
   background-color: #9B1818; }
 
 .btn_green {
   background-color: #67bc5c; }
+
+.btn_white {
+  background-color: #fff;
+  color: #000; }
 
 .btn_wrap {
   text-align: right; }
@@ -313,3 +320,72 @@ form {
 .owl-buttons div:last-child {
   right: 0;
   background-position: right 0; }
+
+.owl-controls {
+  text-align: center; }
+
+.owl-pagination {
+  display: inline-block; }
+  .owl-pagination .owl-page {
+    margin-top: 20px;
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 8px; }
+    .owl-pagination .owl-page span {
+      display: inline-block;
+      background-color: rgba(255, 255, 255, 0.6);
+      width: 14px;
+      height: 14px;
+      border-radius: 50%; }
+    .owl-pagination .owl-page.active span {
+      background-color: rgba(255, 255, 255, 0.9); }
+
+.flag {
+  background: #9B1818 url(../img/flag.png) no-repeat top center;
+  background-size: cover;
+  text-align: center;
+  padding: 40px 0 40px; }
+  .flag .text_wrap {
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #fff; }
+  .flag button {
+    border: 0;
+    margin-top: 30px;
+    background-color: #fff;
+    color: #000; }
+
+.contacts {
+  text-align: center; }
+  .contacts h2 {
+    vertical-align: middle;
+    display: inline-block;
+    color: #000;
+    margin-right: 20px;
+    margin-bottom: 0; }
+
+.contacts {
+  padding-bottom: 0; }
+  .contacts .tabs {
+    border: 3px solid #9B1818;
+    border-radius: 7px;
+    display: inline-block;
+    vertical-align: middle; }
+    .contacts .tabs .tab {
+      text-align: left;
+      border: 0;
+      color: #9B1818; }
+      .contacts .tabs .tab.active {
+        color: #fff;
+        background-color: #9B1818; }
+    .contacts .tabs .tab:first-child {
+      border-radius: 3px 0 0 3px; }
+    .contacts .tabs .tab:last-child {
+      border-radius: 0 3px 3px 0; }
+  .contacts .map {
+    margin-top: 30px;
+    min-height: 480px;
+    background-color: grey; }

@@ -4,6 +4,9 @@ $(document).ready(function() {
 		responsive: true,
 	});
 
+	$('.popup').magnificPopup({type:'image'});
+
+
 	$(".carousel").owlCarousel({
 			loop : true,		
 			navigation : true, // Show next and prev buttons
@@ -35,5 +38,12 @@ $(document).ready(function() {
 		$(".tabs_wrap .wrapper .tab_btn").removeClass("active").eq($(this).index()).addClass("active");
 		$(".tabs_wrap .tab_item").hide().eq($(this).index()).fadeIn()
 	}).eq(0).addClass("active");
+
+	$(".contacts .wrapper .tab_item").not(":first").hide();
+	$(".contacts .tab").click(function() {
+		$(".contacts .tab").removeClass("active").eq($(this).index()).addClass("active");
+		$(".contacts .wrapper .tab_item").hide().eq($(this).index()).fadeIn()
+	}).eq(0).addClass("active");
+
 
 });

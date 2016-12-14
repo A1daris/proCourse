@@ -118,10 +118,16 @@ h2
 	border-radius: 3px
 	font-size: 16px
 	font-family: "RobotoBold", sans-serif
+button
+	.button
+		border: 0
 .btn_red
 	background-color: #9B1818
 .btn_green
 	background-color: $green_color
+.btn_white
+	background-color: #fff
+	color: #000
 .btn_wrap
 	text-align: right
 .tab_item .button
@@ -305,3 +311,68 @@ form
 	div:last-child
 		right: 0
 		background-position: right 0
+.owl-controls
+	text-align: center
+.owl-pagination
+	display: inline-block
+	.owl-page
+		margin-top: 20px
+		margin-bottom: 0
+		display: inline-block
+		margin-right: 8px
+		span
+			display: inline-block
+			background-color: rgba(255,255,255, .6)
+			width: 14px
+			height: 14px
+			border-radius: 50%
+		&.active
+			span
+				background-color: rgba(255,255,255, .9)
+.flag
+	background: $red-color url(../img/flag.png) no-repeat top center
+	background-size: cover
+	text-align: center
+	padding: 40px 0 40px
+	.text_wrap
+		background-color: rgba(255, 255,255, .15)
+		padding: 20px
+		margin: 0
+		text-transform: uppercase
+		font-size: 25px
+		color: #fff
+	button
+		border: 0
+		margin-top: 30px
+		background-color: #fff
+		color: #000
+.contacts
+	text-align: center
+	h2
+		vertical-align: middle
+		display: inline-block
+		color: #000
+		margin-right: 20px
+		margin-bottom: 0
+.contacts
+	padding-bottom: 0
+	.tabs
+		border: 3px solid $red-color
+		border-radius: 7px
+		display: inline-block
+		vertical-align: middle
+		.tab
+			text-align: left
+			border: 0
+			color: $red-color
+			&.active
+				color: #fff
+				background-color: $red-color
+		.tab:first-child
+			border-radius: 3px 0 0 3px
+		.tab:last-child
+			border-radius: 0 3px 3px 0
+	.map
+		margin-top: 30px
+		min-height: 480px
+		background-color: grey
