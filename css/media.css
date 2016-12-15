@@ -22,6 +22,10 @@ form {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+.contacts h2 {
+	margin-bottom: 20px;
+}
+
 
 .top_phone, .logo, .top_header h1, .top_header h2 {
 		text-align: center;
@@ -62,6 +66,13 @@ form {
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+.contacts .tabs {
+	display: block;
+	text-align: left;
+}
+.contacts button {
+ font-size: 15px;
+}
 
 }
 
