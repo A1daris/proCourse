@@ -26,7 +26,7 @@ i{font-style:normal;}
 	content: 'c';
 }
 .my.my_e::before {
-	content: 'f';
+	content: 'e';
 }
 .my.my_f::before {
 	content: 'f';
