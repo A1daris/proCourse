@@ -24,11 +24,16 @@ h1 {
   font-size: 60px;
   line-height: 56px; }
 
-section {
+section,
+footer {
   padding: 58px 0 68px; }
-  section.s_dark h2, section.s_dark h3, section.s_dark p {
+  section.s_dark h2, section.s_dark h3, section.s_dark p,
+  footer.s_dark h2,
+  footer.s_dark h3,
+  footer.s_dark p {
     color: #fff; }
-  section h2 {
+  section h2,
+  footer h2 {
     text-align: center;
     color: #003469;
     font-size: 50px;
@@ -389,3 +394,21 @@ form {
     margin-top: 30px;
     min-height: 480px;
     background-color: grey; }
+
+footer {
+  text-align: center; }
+  footer h2 {
+    color: #000; }
+  footer .tabs {
+    color: #9B1818; }
+    footer .tabs .tab {
+      cursor: pointer;
+      text-transform: uppercase;
+      font-size: 18px; }
+      footer .tabs .tab.active {
+        text-decoration: underline; }
+  footer .tab_item {
+    font-size: 25px;
+    color: #9B1818; }
+  footer button {
+    border: none; }

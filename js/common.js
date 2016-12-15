@@ -45,5 +45,10 @@ $(document).ready(function() {
 		$(".contacts .wrapper .tab_item").hide().eq($(this).index()).fadeIn()
 	}).eq(0).addClass("active");
 
+	$("footer .wrapper .tab_item").not(":first").hide();
+	$("footer .tab").click(function() {
+		$("footer .tab").removeClass("active").eq($(this).index()).addClass("active");
+		$("footer .wrapper .tab_item").hide().eq($(this).index()).fadeIn()
+	}).eq(0).addClass("active");
 
 });
