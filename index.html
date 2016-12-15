@@ -58,7 +58,7 @@
 							<li><i class="my my_c"></i>3–5% на обучение за рубежом.</li>
 						</ul>
 						<div class="btn_wrap">
-							<a href="#" class="button btn_red">НАЧАТЬ ОБУЧЕНИЕ</a>
+							<a href="#hidden_form" class="button btn_red popup_c">НАЧАТЬ ОБУЧЕНИЕ</a>
 						</div>
 					</div>
 					<div class="tab_item">
@@ -258,12 +258,40 @@
 					</div>
 				</div>
 				
-				<button class="button btn_red">заказать звонок</button>
+				<button href="#hidden_form" class="button btn_red popup_c">заказать звонок</button>
 			
 			</div>
 		</div>
 	</div>
 </footer>
+
+<div class="hidden">
+	<form id="hidden_form">
+
+					<h2>связаться с нами</h2>
+					<label>
+						<span>Ваше имя:</span>
+						<input type="text" name="name" required/>
+					</label>
+					<label>
+						<span>Ваш телефон:</span>
+						<input type="text" name="phone" required/>
+					</label>
+					<span>Ваш город:</span>
+					<label>
+						<select name="city">
+							<option>Москва</option>
+							<option>Карагада</option>
+						</select>
+					</label>
+					<div class="button_wrap">
+						<button class="button btn_green">Отправить форму</button>
+					</div>
+
+	</form>
+
+</div>
+
 </body>
 <script type="text/javascript" src="libs/jquery/jquery-1.11.1.min.js"> </script>
 <script type="text/javascript" src="libs/fancybox/jquery.fancybox.js"> </script>
