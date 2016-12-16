@@ -7,15 +7,24 @@ $(document).ready(function() {
 	$('.popup').magnificPopup({type:'image'});
 	$('.popup_c').magnificPopup({closeBtnInside: true});
 
-
-	$(".carousel").owlCarousel({
-			loop : true,		
-			navigation : true, // Show next and prev buttons
-      slideSpeed : 300,
-      paginationSpeed : 400,
-      singleItem : true,
-      navigationText: ""
+$(".carousel").owlCarousel({
+		responsive : {
+			0 : {
+				items : 1,
+				nav : true
+			}
+		},
+		navText : ""
 	});
+
+	//$(".carousel").owlCarousel({
+	//		loop : true,		
+	//		navigation : true, // Show next and prev buttons
+//    slideSpeed : 300,
+//    paginationSpeed : 400,
+//    singleItem : true,
+//    navigationText: ""
+//});
 
 	function wResize() {
 		$("header").css("min-height", $(window).height());

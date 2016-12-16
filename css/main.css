@@ -173,7 +173,7 @@ button .button {
   padding-top: 35px;
   padding-bottom: 0;
   background-color: #c6d8ee;
-  background-image: linear-gradient(#c6d8ee, #ddd); }
+  background-image: linear-gradient(#c6d8ee, #e8eff7); }
   .tizers span {
     display: block; }
   .tizers .my {
@@ -183,6 +183,8 @@ button .button {
     margin-right: 10px;
     vertical-align: bottom;
     display: inline-block; }
+    .tizers .image_wrap i {
+      font-size: 70px; }
   .tizers .tizers_item {
     text-transform: uppercase;
     vertical-align: bottom;
@@ -193,19 +195,19 @@ button .button {
       margin-bottom: 35px; }
     .tizers .row div:nth-child(1) .ten {
       font-family: "RobotoRegular", sans-serif;
-      font-size: 55px;
+      font-size: 60px;
       letter-spacing: -12px;
       margin-right: 8px;
-      line-height: 52px; }
+      line-height: 64px; }
     .tizers .row div:nth-child(1) .tizers_item span {
-      font-size: 14px;
+      font-size: 20px;
       line-height: 24px; }
     .tizers .row div:nth-child(1) .tizers_item strong {
       font-size: 25px;
       line-height: 28px;
       font-weight: normal; }
     .tizers .row div:nth-child(2) span {
-      font-size: 14px;
+      font-size: 16px;
       line-height: 24px; }
     .tizers .row div:nth-child(2) strong {
       font-size: 25px;
@@ -223,9 +225,9 @@ button .button {
       font-weight: normal; }
     .tizers .row div:nth-child(3) i {
       position: relative;
-      top: 3px; }
+      top: -2px; }
     .tizers .row div:nth-child(4) .tizers_item span {
-      font-size: 14px;
+      font-size: 13px;
       line-height: 24px; }
     .tizers .row div:nth-child(4) .tizers_item strong {
       font-size: 23px;
@@ -327,34 +329,34 @@ form {
       float: none;
       font-size: 15px; }
 
-.owl-buttons div {
+.owl-nav div {
   position: absolute;
   top: 100px;
   background: url(../img/arrows.png) 0 0 no-repeat;
   width: 37px;
   height: 140px; }
 
-.owl-buttons div:last-child {
+.owl-nav div:last-child {
   right: 0;
   background-position: right 0; }
 
 .owl-controls {
   text-align: center; }
 
-.owl-pagination {
+.owl-dots {
   display: inline-block; }
-  .owl-pagination .owl-page {
+  .owl-dots .owl-dot {
     margin-top: 20px;
     margin-bottom: 0;
     display: inline-block;
     margin-right: 8px; }
-    .owl-pagination .owl-page span {
+    .owl-dots .owl-dot span {
       display: inline-block;
       background-color: rgba(255, 255, 255, 0.6);
       width: 14px;
       height: 14px;
       border-radius: 50%; }
-    .owl-pagination .owl-page.active span {
+    .owl-dots .owl-dot.active span {
       background-color: rgba(255, 255, 255, 0.9); }
 
 .flag {
@@ -427,8 +429,9 @@ footer {
     font-size: 25px;
     color: #9B1818; }
   footer button {
+    margin-top: 20px;
     border: none; }
-  footer .tab_content {
+  footer .phone_wrap {
     margin-top: 50px; }
 
 #hidden_form {
